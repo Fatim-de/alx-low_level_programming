@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - print whether the num stored in the variable n is pos or neg.
@@ -19,14 +20,14 @@ int main(void)
 	{
 		puts(" is positive");
 	}
-	else if  (n == 0)
+	else if (n == 0)
 	{
 		puts(" is zero");
 	}
 	else
-		{
-			puts(" is negative");
-		}
+	{
+		puts(" is negative");
+	}
 
-		return(0);
+	return (0);
 }
