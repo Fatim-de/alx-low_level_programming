@@ -18,11 +18,11 @@ int main(void)
 
 	if (n > 0)
 	{
-		puts(" is postive");
+		puts("is positive");
 	}
 	else if  (n == 0)
 	{
-		puts ("is zero");
+		puts(" is zero");
 	}
 		else
 		{
@@ -30,4 +30,3 @@ int main(void)
 		}
 		return(0);
 }
-
