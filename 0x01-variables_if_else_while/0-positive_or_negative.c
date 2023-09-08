@@ -24,7 +24,7 @@ int main(void)
 	{
 		puts(" is zero");
 	}
-		else
+	else
 		{
 			puts(" is negative");
 		}
