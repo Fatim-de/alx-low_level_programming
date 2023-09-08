@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
  * main - print whether the num stored in the variable n is pos or neg.
