@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints _putchar, followed by a new line.
@@ -7,13 +7,15 @@
 
 int main(void)
 {
-    char s[] = "_putchar";
-    int i = 0;
-    while (s[i] != '\0')
-    {
-        putchar(s[i]);
-        i++;
-    }
-    putchar('\n');
-    return (0);
+	unsigned int i;
+	char c[] = "_putchar";
+
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
+
+	return (0);
 }
