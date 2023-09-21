@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * rev_string - reverse array
@@ -26,4 +25,5 @@ void rev_string(char *n)
 		*(n + i) = temp;
 	}
 }
+
 
