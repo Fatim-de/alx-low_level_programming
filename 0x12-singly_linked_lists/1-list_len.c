@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * size_t list_len - afunction that listlenght of the elements
+ * list_len - afunction that listlenght of the elements
  * @h: pointer to the list
  * Return: the number of elements
  */
