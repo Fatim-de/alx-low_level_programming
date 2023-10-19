@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <math.h>
 
 /**
  * _printf - Produces output according to a format
