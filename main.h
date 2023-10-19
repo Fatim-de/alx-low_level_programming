@@ -4,6 +4,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
+#include <string.h>
+#include <math.h>
 
 /* utils.c */
 int _strlen(const char *);
