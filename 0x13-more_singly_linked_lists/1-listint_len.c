@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 /**
  * listint_len - a function that returns the number of elements in a linked
@@ -15,6 +14,5 @@ size_t listint_len(const listint_t *h)
 	h = h->next;
 	n++;
 	}
-	printf("\n");
 	return (n);
 }
